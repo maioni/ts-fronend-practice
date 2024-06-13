@@ -7,6 +7,7 @@ class Launcher {
  
     public launchApp() {
         console.log('App started!');
+        this.router.hundleRequest();
     }
 }
 
